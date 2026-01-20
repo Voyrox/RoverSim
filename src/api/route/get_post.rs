@@ -63,10 +63,10 @@ fn convert_code_to_rust(code_lines: &[String]) -> String {
     rust_code.push_str("        goto_start();\n    }\n\n");
 
     rust_code.push_str("\n    fn get_battery_level() -> i32 {\n");
-    rust_code.push_str("        100 // Return a dummy value\n    }\n\n");
+    rust_code.push_str("        100 // tmp value\n    }\n\n");
 
     rust_code.push_str("\n    fn move_forward(_reg: i32) {\n");
-    rust_code.push_str("        // Implementation for moving forward\n    }\n\n");
+    rust_code.push_str("        // Do later\n    }\n\n");
 
     for line in code_lines {
         let line = line.trim();
