@@ -34,12 +34,12 @@ pub extern "C" fn _start() -> ! {
 
 
     fn get_battery_level() -> i32 {
-        100 // Return a dummy value
+        100 // tmp
     }
 
 
     fn move_forward(_reg: i32) {
-        // Implementation for moving forward
+        // Do later
     }
 
     fn goto_start() {
